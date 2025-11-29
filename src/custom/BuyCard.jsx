@@ -8,7 +8,7 @@ const BuyCard = ({ title, source }) => {
         <img src={source} alt="" className="w-[200px] h-[200px]" />
       </div>
       <h3 className="font-bold">{title}</h3>
-      <img src="/src/assets/stars.png"/> 
+      <img src="../assets/stars.png"/> 
       <Button className="border border-[#1A69BE] text-[#1A69BE] p-2 text-xl m-2 hover:bg-[#1A69BE] hover:text-white">
         Shop Now
       </Button>

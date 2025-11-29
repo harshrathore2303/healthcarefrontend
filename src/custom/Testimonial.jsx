@@ -17,7 +17,7 @@ const Testimonial = ({ source, title, description, by }) => {
     <div className="pl-14">
       <h2 className="text-xl font-bold">{title}</h2>
 
-      <img src="/src/assets/stars.png" className="my-2" alt="" />
+      <img src="../assets/stars.png" className="my-2" alt="" />
 
       <p className="text-gray-700 leading-relaxed mb-3">
         {description}

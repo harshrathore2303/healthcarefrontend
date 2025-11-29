@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="w-full bg-white border-t py-10 px-10">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
         <div className="col-span-2 space-y-4 border-r pr-10">
-          <img src="/src/assets/hdc.png" alt="Logo" className="w-24" />
+          <img src="../assets/hdc.png" alt="Logo" className="w-24" />
 
           <p className="text-[#5C5C5C] leading-relaxed">
             <span className="font-semibold">Address:</span> 7823 Red Oak Trail,
@@ -87,7 +87,7 @@ const Footer = () => {
   </p>
 
     <div className="flex justify-center">
-  <img src="/src/assets/cards.png" className="w-60" />
+  <img src="../assets/cards.png" className="w-60" />
 
     </div>
 

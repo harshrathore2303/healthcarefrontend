@@ -11,63 +11,63 @@ const data = [
     title: "Weight Loss",
     description:
       "Shop trusted weight loss products that help boost metabolism and support your journey to a healthier you",
-    source: "/src/assets/weight.png",
+    source: "../assets/weight.png",
   },
   {
     title: "Nerve Pain",
     description:
       "Find relief with nerve pain products formulated to soothe discomfort and support healthy nerve function",
-    source: "/src/assets/nerve.png",
+    source: "../assets/nerve.png",
   },
   {
     title: "Skin Care",
     description:
       "Explore premium skincare products that nourish, protect, and enhance your natural glow",
-    source: "/src/assets/weight.png",
+    source: "../assets/weight.png",
   },
   {
     title: "Men’s Health",
     description:
       "Discover men’s health products designed to boost energy, strength, and overall well-being.",
-    source: "/src/assets/medical.png",
+    source: "../assets/medical.png",
   },
   {
     title: "Women’s Health",
     description:
       "Explore women’s health products that support hormonal balance, vitality, and overall wellness",
-    source: "/src/assets/doc.png",
+    source: "../assets/doc.png",
   },
 ];
 
 const category = ["Results-Driven", "All-Natural", "Non-GMO", "Cruelty-Free"];
 const medicine = [
-  { title: "Dent Pure", source: "/src/assets/dent.png" },
-  { title: "True Fem", source: "/src/assets/truefem.png" },
-  { title: "Vita Renew", source: "/src/assets/vita.png" },
-  { title: "ProstaZen", source: "/src/assets/pros.png" },
-  { title: "Nerve Freedom", source: "/src/assets/nervemed.png" },
+  { title: "Dent Pure", source: "../assets/dent.png" },
+  { title: "True Fem", source: "../assets/truefem.png" },
+  { title: "Vita Renew", source: "../assets/vita.png" },
+  { title: "ProstaZen", source: "../assets/pros.png" },
+  { title: "Nerve Freedom", source: "../assets/nervemed.png" },
 ];
 
 const brands = [
   {
     text: "All Natural",
-    source: "/src/assets/flow.png",
+    source: "../assets/flow.png",
   },
   {
     text: "Cruelty-Free",
-    source: "/src/assets/rabbit.png",
+    source: "../assets/rabbit.png",
   },
   {
     text: "Money-back Guarantee",
-    source: "/src/assets/days.png",
+    source: "../assets/days.png",
   },
   {
     text: "Giving back",
-    source: "/src/assets/hand.png",
+    source: "../assets/hand.png",
   },
   {
     text: "Non-GMO",
-    source: "/src/assets/dna.png",
+    source: "../assets/dna.png",
   },
 ];
 
@@ -77,21 +77,21 @@ const dataForDetail = [
     subtitle: "Nature-Powered Wellness You Can Trust",
     description:
       "We harness the goodness of nature to create supplements enriched with premium, research-backed superfood extracts. Each formula is carefully crafted to promote overall vitality and deliver proven health benefits. At Health Desk Care, we uphold the highest standards of quality, safety, and regulatory compliance, ensuring every product you choose is both effective and trustworthy.",
-    source: "/src/assets/fruits.jpg",
+    source: "../assets/fruits.jpg",
   },
   {
     title: "100% Natural Components",
     subtitle: "Nature-Powered Wellness You Can Trust",
     description:
       "We harness the goodness of nature to create supplements enriched with premium, research-backed superfood extracts. Each formula is carefully crafted to promote overall vitality and deliver proven health benefits. At Health Desk Care, we uphold the highest standards of quality, safety, and regulatory compliance, ensuring every product you choose is both effective and trustworthy.",
-    source: "/src/assets/lab.jpg",
+    source: "../assets/lab.jpg",
   },
   {
     title: "100% Natural Components",
     subtitle: "Nature-Powered Wellness You Can Trust",
     description:
       "We harness the goodness of nature to create supplements enriched with premium, research-backed superfood extracts. Each formula is carefully crafted to promote overall vitality and deliver proven health benefits. At Health Desk Care, we uphold the highest standards of quality, safety, and regulatory compliance, ensuring every product you choose is both effective and trustworthy.",
-    source: "/src/assets/manu.jpg",
+    source: "../assets/manu.jpg",
   },
 ];
 
@@ -101,21 +101,21 @@ const testimonials = [
     description:
       "TestoBites has been a game changer when it comes to my stamina and energy levels. I can truly feel a difference in my sex drive and virility as well. Highly recommended.",
     by: "- Ryan R.",
-    source: "/src/assets/testo.png",
+    source: "../assets/testo.png",
   },
   {
     title: "Vita RenewNerve Freedom",
     description:
       "My pain therapist recommended this product to me and I was surprised by how well it worked. I can see a marked improvement in my Skin Care.",
     by: "- Jamie Fields",
-    source: "/src/assets/dc.png",
+    source: "../assets/dc.png",
   },
   {
     title: "Nerve Freedom",
     description:
       "I have been an RN for 20 years and love helping people find solutions to their health issues.NF Product is the best natural product for neuropathy pain hands down.",
     by: "- Anonymous",
-    source: "/src/assets/fd.png",
+    source: "../assets/fd.png",
   },
 ];
 
@@ -138,7 +138,7 @@ const Home = () => {
               Shop Now
             </Button>
           </div>
-          <img src="/src/assets/doctor.png" alt="" />
+          <img src="../assets/doctor.png" alt="" />
         </div>
 
         <div className="flex flex-col items-center overflow-hidden my-16">
@@ -236,11 +236,11 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-5">
-            <img src="/src/assets/pcf.png" alt="" />
-            <img src="/src/assets/at.png" alt="" />
-            <img src="/src/assets/us.png" alt="" />
-            <img src="/src/assets/ad.png" alt="" />
-            <img src="/src/assets/aha.png" alt="" />
+            <img src="../assets/pcf.png" alt="" />
+            <img src="../assets/at.png" alt="" />
+            <img src="../assets/us.png" alt="" />
+            <img src="../assets/ad.png" alt="" />
+            <img src="../assets/aha.png" alt="" />
           </div>
         </div>
 
@@ -254,11 +254,11 @@ const Home = () => {
         </div>
 
         <div className="flex flex-col items-center justify-between my-7">
-          <img src="/src/assets/hdc.png" className="w-60 h-48" />
+          <img src="../assets/hdc.png" className="w-60 h-48" />
           <Button className="border border-[#1A69BE] text-[#1A69BE] p-2 text-xl m-2 hover:bg-[#1A69BE] hover:text-white">
             Follow Us
           </Button>
-          <img src="/src/assets/g.png" className="w-60 h-10  mx-auto" />
+          <img src="../assets/g.png" className="w-60 h-10  mx-auto" />
         </div>
 
         <div className="grid grid-cols-3 gap-10 max-w-7xl mx-auto">
